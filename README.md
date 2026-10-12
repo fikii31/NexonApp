@@ -4,7 +4,7 @@
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
 [![License](https://img.shields.io/badge/License-MIT-blue.style=for-the-badge)](LICENSE)
 
-> [Deskripsi singkat 1-2 kalimat tentang apa fungsi utama aplikasi ini dan masalah apa yang diselesaikannya.]
+> Aplikasi manajemen akun konten dan tracker potensi pendapatan.
 
 ---
 
@@ -18,10 +18,10 @@
 
 ## ✨ Fitur Utama
 
-- 📱 **Responsive UI:** Tampilan antarmuka yang bersih dan disesuaikan untuk berbagai ukuran layar.
-- ⚡ **Fast & Smooth Navigation:** Transisi halaman yang cepat menggunakan bawaan Flutter Navigator.
-- 🎨 **Custom Assets & Splash:** Tampilan splash screen khusus dengan penataan aset gambar internal.
-- 🔒 **Clean Code Structure:** Pemisahan file modular (`lib/home.dart`, `lib/splashscreen.dart`, `lib/main.dart`).
+- Responsive UI: Tampilan antarmuka yang bersih dan disesuaikan untuk berbagai ukuran layar.
+- Fast & Smooth Navigation: Transisi halaman yang cepat menggunakan bawaan Flutter Navigator.
+- Custom Assets & Splash: Tampilan splash screen khusus dengan penataan aset gambar internal.
+- Clean Code Structure: Pemisahan file modular (`lib/home.dart`, `lib/splashscreen.dart`, `lib/main.dart`).
 
 ---
 
