@@ -400,7 +400,7 @@ class _HomeView extends StatelessWidget {
           child: _InfoCard(
             icon: Icons.bolt_rounded,
             title: 'Task',
-            value: 'Jalankan tugas utama dalam satu ketukan.',
+            value: 'Tingkatkan peluang keberhasilan akun kamu dengan menyelesaikan tugas.',
           ),
         ),
         _Reveal(
@@ -428,8 +428,8 @@ class _StaticView extends StatelessWidget {
         _Reveal(
           index: 0,
           child: _PageHeader(
-            label: 'STATISTIK',
-            title: '7.6',
+            label: 'Pendapatan',
+            title: 'Rp.2.561.500',
             subtitle: 'real-time statistik information',
           ),
         ),
@@ -437,26 +437,32 @@ class _StaticView extends StatelessWidget {
           index: 1,
           child: _InfoCard(
             icon: Icons.trending_up_rounded,
-            title: 'Pengunjung',
-            value: '1.284',
+            title: 'Rata-Rata Views',
+            value: '1.284.390',
           ),
         ),
         _Reveal(
           index: 2,
           child: _InfoCard(
             icon: Icons.check_circle_outline_rounded,
-            title: 'Tugas selesai',
-            value: '36',
+            title: 'Total Video Upload',
+            value: '2.136',
           ),
         ),
         _Reveal(
           index: 3,
           child: _InfoCard(
             icon: Icons.schedule_rounded,
-            title: 'Rata-rata waktu',
+            title: 'Rata-rata Durasi Video',
             value: '4m 12d',
           ),
         ),
+        _Reveal(
+          index: 4,
+          child: _InfoCard(icon: Icons.subscriptions_rounded, 
+          title: 'Subscriber', 
+          value: '68.901'),
+          )
       ],
     );
   }
@@ -498,7 +504,7 @@ class _ProfileView extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               Text(
-                'Taufik Hidayat',
+                'The Shape of Town',
                 style: TextStyle(
                   color: p.text,
                   fontSize: 22,
@@ -508,6 +514,11 @@ class _ProfileView extends StatelessWidget {
               const SizedBox(height: 4),
               Text(
                 'fikii0631@gmail.com',
+                style: TextStyle(color: p.textMuted),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                'LV.78 (Intermediate Level)',
                 style: TextStyle(color: p.textMuted),
               ),
               const SizedBox(height: 28),

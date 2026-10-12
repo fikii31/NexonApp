@@ -1,17 +1,44 @@
-# my_firtsapp
+# 🚀 [Nama Aplikasi Lu]
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![License](https://img.shields.io/badge/License-MIT-blue.style=for-the-badge)](LICENSE)
 
-## Getting Started
+> [Deskripsi singkat 1-2 kalimat tentang apa fungsi utama aplikasi ini dan masalah apa yang diselesaikannya.]
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Splash Screen | Home Page | [Fitur Lain] |
+| :---: | :---: | :---: |
+| <img src="assets/ss.jpg" width="220" alt="Splash Screen"/> | <img src="assets/ss.jpg" width="220" alt="Home Screen"/> | <img src="assets/ss.jpg" width="220" alt="Other Screen"/> |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Fitur Utama
+
+- 📱 **Responsive UI:** Tampilan antarmuka yang bersih dan disesuaikan untuk berbagai ukuran layar.
+- ⚡ **Fast & Smooth Navigation:** Transisi halaman yang cepat menggunakan bawaan Flutter Navigator.
+- 🎨 **Custom Assets & Splash:** Tampilan splash screen khusus dengan penataan aset gambar internal.
+- 🔒 **Clean Code Structure:** Pemisahan file modular (`lib/home.dart`, `lib/splashscreen.dart`, `lib/main.dart`).
+
+---
+
+## 🛠️ Teknologi & Tools
+
+* **Framework:** [Flutter](https://flutter.dev/)
+* **Language:** [Dart](https://dart.dev/)
+* **IDE:** VS Code / Android Studio
+
+---
+
+## 📁 Struktur Folder
+
+```text
+lib/
+├── main.dart            # Entry point aplikasi
+├── splashscreen.dart    # Tampilan awal (Splash Screen)
+└── home.dart            # Halaman utama aplikasi
+assets/
+└── ss.jpg               # Tangkapan layar & aset gambar
