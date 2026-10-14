@@ -29,7 +29,7 @@
 * **Language:** [Dart](https://dart.dev/)
 * **IDE:** VS Code / Android Studio
 * **Distributed Version Control System** : Git
-* **Version Control** : Github
+
 
 ---
 
