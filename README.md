@@ -4,11 +4,9 @@
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
 [![License](https://img.shields.io/badge/License-MIT-blue.style=for-the-badge)](LICENSE)
 
-> Aplikasi manajemen akun konten dan tracker potensi pendapatan.
-
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Splash Screen | Home Page | [Fitur Lain] |
 | :---: | :---: | :---: |
@@ -16,7 +14,7 @@
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - Responsive UI: Tampilan antarmuka yang bersih dan disesuaikan untuk berbagai ukuran layar.
 - Fast & Smooth Navigation: Transisi halaman yang cepat menggunakan bawaan Flutter Navigator.
@@ -25,15 +23,17 @@
 
 ---
 
-## 🛠️ Teknologi & Tools
+## Teknologi & Tools
 
 * **Framework:** [Flutter](https://flutter.dev/)
 * **Language:** [Dart](https://dart.dev/)
 * **IDE:** VS Code / Android Studio
+* **Distributed Version Control System** : Git
+* **Version Control** : Github
 
 ---
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```text
 lib/
