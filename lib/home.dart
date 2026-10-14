@@ -260,55 +260,6 @@ class _MyHomePageState extends State<MyHomePage> {
           },
           child: _buildPage(_selectedIndex),
         ),
-        bottomNavigationBar: NavigationBarTheme(
-          data: NavigationBarThemeData(
-            backgroundColor: p.navBg,
-            indicatorColor: p.accent.withValues(alpha: 0.18),
-            elevation: 0,
-            height: 68,
-            iconTheme: WidgetStateProperty.resolveWith((states) {
-              final selected = states.contains(WidgetState.selected);
-              return IconThemeData(
-                color: selected ? p.accent : p.textMuted,
-                size: 24,
-              );
-            }),
-            labelTextStyle: WidgetStateProperty.resolveWith((states) {
-              final selected = states.contains(WidgetState.selected);
-              return TextStyle(
-                fontSize: 12,
-                fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
-                color: selected ? p.accent : p.textMuted,
-              );
-            }),
-          ),
-          child: DecoratedBox(
-            decoration: BoxDecoration(
-              border: Border(top: BorderSide(color: p.border)),
-            ),
-            child: NavigationBar(
-              selectedIndex: _selectedIndex,
-              onDestinationSelected: _onItemTapped,
-              destinations: const [
-                NavigationDestination(
-                  icon: Icon(Icons.home_outlined),
-                  selectedIcon: Icon(Icons.home_rounded),
-                  label: 'Home',
-                ),
-                NavigationDestination(
-                  icon: Icon(Icons.bar_chart_outlined),
-                  selectedIcon: Icon(Icons.bar_chart_rounded),
-                  label: 'Statistic',
-                ),
-                NavigationDestination(
-                  icon: Icon(Icons.person_outline_rounded),
-                  selectedIcon: Icon(Icons.person_rounded),
-                  label: 'Profile',
-                ),
-              ],
-            ),
-          ),
-        ),
         drawer: Drawer(
           backgroundColor: p.drawerBg,
           shape: const RoundedRectangleBorder(
