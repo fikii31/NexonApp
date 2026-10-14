@@ -27,35 +27,21 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   
 
-  @override
+   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Center(
-            child: Image.asset(
-              'assets/ss.jpg',
-                width: 100.00,
-                height: 300.0,
-                fit:BoxFit.cover,
-              ),
+      body: Container(
+        // Mengisi seluruh area layar
+        width: double.infinity,
+        height: double.infinity,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/NexonLogo.jpg'), // Path gambar kamu
+            fit: BoxFit.cover, // Memastikan gambar memenuhi seluruh layar
           ),
-          SizedBox(
-            height: 24.0,
-          ),
-          Text(
-            'Nexon Apps',
-            style:TextStyle(
-              fontSize: 30.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.black,
-            ),
-          ),
-        ],
-      ),    
+        ),
+      ),
     );
   }
 }
+  
