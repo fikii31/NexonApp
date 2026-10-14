@@ -12,7 +12,7 @@
 
 | Splash Screen | Home Page | [Fitur Lain] |
 | :---: | :---: | :---: |
-| <img src="assets/ss.jpg" width="220" alt="Splash Screen"/> | <img src="assets/ss.jpg" width="220" alt="Home Screen"/> | <img src="assets/ss.jpg" width="220" alt="Other Screen"/> |
+| <img src="assets/NexonLogo.jpg" width="220" alt="Splash Screen"/> | <img src="assets/NexonLogo.jpg" width="220" alt="Home Screen"/> | <img src="assets/NexonLogo.jpg" width="220" alt="Other Screen"/> |
 
 ---
 
