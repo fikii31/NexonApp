@@ -276,11 +276,22 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: const EdgeInsets.fromLTRB(24, 28, 24, 28),
                         child: Row(
                           children: [
+                            Container (
+                              width: 30,
+                              height: 30,
+                              alignment: Alignment.center,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage('assets/logoNexonVec.jpg'),
+                                  fit: BoxFit.contain,
+                                ),
+                              ),
+                            ),
                             const SizedBox(width: 14),
                             Text(
                               'Nexon',
                               style: TextStyle(
-                                fontSize: 22,
+                                fontSize: 25,
                                 fontWeight: FontWeight.w700,
                                 color: p.text,
                               ),
@@ -292,30 +303,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       _drawerItem(p, 1, Icons.bar_chart_rounded, 'Statistic'),
                       _drawerItem(p, 2, Icons.person_rounded, 'Profile'),
                     ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
-                  child: SwitchListTile(
-                    value: isDark,
-                    onChanged: (_) => widget.onToggleTheme(),
-                    activeThumbColor: p.accent,
-                    title: Text(
-                      'Mode gelap',
-                      style: TextStyle(
-                        color: p.textSoft,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    secondary: Icon(
-                      isDark
-                          ? Icons.dark_mode_rounded
-                          : Icons.light_mode_rounded,
-                      color: p.textSoft,
-                    ),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(14),
-                    ),
                   ),
                 ),
               ],
